@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>健康數據輸入</title>
+</head>
+<body>
+    <h2>輸入你的健康資料</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.height.label }} {{ form.height(size=10) }}<br>
+        {{ form.weight.label }} {{ form.weight(size=10) }}<br>
+        {{ form.sleep_hours.label }} {{ form.sleep_hours(size=10) }}<br>
+        {{ form.exercise_minutes.label }} {{ form.exercise_minutes(size=10) }}<br>
+        {{ form.hba1c.label }} {{ form.hba1c(size=10) }}<br><br>
+        {{ form.submit() }}
+    </form>
+</body>
+</html>

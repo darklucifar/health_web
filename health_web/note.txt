@@ -1,0 +1,7 @@
+安裝套件:flask flask_sqlalchemy flask-wtf scikit-learn pandas numpy
+py -m pip install flask flask_sqlalchemy flask-wtf scikit-learn pandas numpy
+
+檢查flask是否有安裝成功?
+py -m pip show flask
+
+啟動 py app.py
